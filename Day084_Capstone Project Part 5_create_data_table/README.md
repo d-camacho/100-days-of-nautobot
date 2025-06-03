@@ -30,7 +30,7 @@ nautobot-1  | Quit the server with CONTROL-C.
 ## **Implementation Steps**
 
 ### **1. Work with the `tables.py` File**
-Inside the **`nautobot_software_cves/`** directory, find the **`tables.py`** file that was created for us.
+Inside the **`nautobot_software_cves/`** directory, find the **`tables.py`** file that was created for us. See final code if you have to create the file.
 
 ```
 nautobot-app-software-cves/
@@ -42,7 +42,7 @@ nautobot-app-software-cves/
 This file will define the structure and behavior of the **CVE status table**.
 
 
-### **2. Insert the Following Code in `tables.py` if left you Step 9 at default from Day 80**
+### **2. Insert the Following Code in `tables.py` if you left Step 9 at default from Day 80**
 ```python
 import django_tables2 as tables # pre-created
 from nautobot.apps.tables import BaseTable, ButtonsColumn, ToggleColumn # pre-created
